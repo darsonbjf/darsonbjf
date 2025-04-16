@@ -1,7 +1,7 @@
 <h1 align="center">Olá, eu sou o Darson 👋</h1>
 
 <p align="center">
-  Desenvolvedor Full Stack com foco em aplicações modernas, DevSecOps e observabilidade.
+  Desenvolvedor Full Cycle e observabilidade.
 </p>
 
 ### 🔧 Tecnologias & Ferramentas
