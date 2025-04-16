@@ -7,11 +7,14 @@
 ### 🔧 Tecnologias & Ferramentas
 
 ![Node.js](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js)
-![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
-![Grafana](https://img.shields.io/badge/-Grafana-333?style=flat&logo=grafana)
+![React](https://img.shields.io/badge/-React-333?style=flat&logo=react)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333?style=flat&logo=postgresql)
-![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
+![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
+![Jenkins](https://img.shields.io/badge/-Jenkins-333?style=flat&logo=jenkins)
+![Prometheus](https://img.shields.io/badge/-Prometheus-333?style=flat&logo=prometheus)
+![Grafana](https://img.shields.io/badge/-Grafana-333?style=flat&logo=grafana)
 ![Linux](https://img.shields.io/badge/-Linux-333?style=flat&logo=linux)
+![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
 
 ---
 
