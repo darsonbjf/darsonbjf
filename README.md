@@ -1,8 +1,7 @@
 <h1 align="center">Olá, eu sou o Darson 👋</h1>
+<p align="center">Desenvolvedor Full Cycle com foco em observabilidade.</p>
 
-<p align="center">
-  Desenvolvedor Full Cycle e observabilidade.
-</p>
+---
 
 ### 🔧 Tecnologias & Ferramentas
 
@@ -18,11 +17,20 @@
 
 ---
 
-### 📈 Estatísticas
+### 📊 Estatísticas
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=darsonbjf&show_icons=true&theme=radical&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=darsonbjf&layout=compact&theme=radical"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=darsonbjf&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&custom_title=Estatísticas%20do%20GitHub%20🚀" height="180em"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=darsonbjf&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180em"/>
+</p>
+
+---
+
+### ⏱️ Atividade
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=darsonbjf&theme=tokyo-night&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=darsonbjf&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
