@@ -1,6 +1,3 @@
-
-<p align="center">Desenvolvedor Full Cycle com foco em observabilidade.</p>
-
 ### 🔧 Tecnologias & Ferramentas
 
 ![Node.js](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js)
@@ -18,8 +15,8 @@
 ### 📊 Estatísticas
 
 <p align="center">
-  <img src="https://github-readme-stats-six-kappa-49.vercel.app/api?username=darsonbjf&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&custom_title=Estatísticas%20do%20GitHub%20🚀" height="180em"/>
-  <img src="https://github-readme-stats-six-kappa-49.vercel.app/api/top-langs/?username=darsonbjf&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180em"/>
+  <img src="https://github-readme-stats-darsonbjfs-projects.vercel.app/api?username=darsonbjf&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&custom_title=Estatísticas%20do%20GitHub%20🚀" height="180em"/>
+  <img src="https://github-readme-stats-darsonbjfs-projects.vercel.app/api/top-langs/?username=darsonbjf&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180em"/>
 </p>
 
 ---
