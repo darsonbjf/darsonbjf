@@ -1,16 +1,14 @@
-## Hi there 👋
+### 👋 Olá! Eu sou o Darson
 
-<!--
-**darsonbjf/darsonbjf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Atualmente trabalhando com aplicações web full stack
+- 🌱 Estudando DevOps, Kubernetes, e Observabilidade com OpenTelemetry
+- 💬 Pergunte-me sobre Node.js, Docker, Prometheus e React
 
-Here are some ideas to get you started:
+### 🧰 Tecnologias que uso
+![Node.js](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js)
+![Docker](https://img.shields.io/badge/-Docker-333?style=flat&logo=docker)
+![React](https://img.shields.io/badge/-React-333?style=flat&logo=react)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333?style=flat&logo=postgresql)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📊 Estatísticas GitHub
+![Darson's GitHub stats](https://github-readme-stats.vercel.app/api?username=darsonbjf&show_icons=true&theme=radical)
