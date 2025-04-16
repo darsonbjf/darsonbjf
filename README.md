@@ -1,7 +1,5 @@
-<h1 align="center">Olá, eu sou o Darson 👋</h1>
-<p align="center">Desenvolvedor Full Cycle com foco em observabilidade.</p>
 
----
+<p align="center">Desenvolvedor Full Cycle com foco em observabilidade.</p>
 
 ### 🔧 Tecnologias & Ferramentas
 
