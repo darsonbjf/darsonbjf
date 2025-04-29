@@ -1,5 +1,4 @@
 ### 🔧 Tecnologias & Ferramentas
-
 ![Node.js](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js)
 ![React](https://img.shields.io/badge/-React-333?style=flat&logo=react)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-333?style=flat&logo=postgresql)
@@ -8,6 +7,7 @@
 ![Prometheus](https://img.shields.io/badge/-Prometheus-333?style=flat&logo=prometheus)
 ![Grafana](https://img.shields.io/badge/-Grafana-333?style=flat&logo=grafana)
 ![Linux](https://img.shields.io/badge/-Linux-333?style=flat&logo=linux)
+![PowerShell](https://img.shields.io/badge/-PowerShell-333?style=flat&logo=powershell)
 ![Git](https://img.shields.io/badge/-Git-333?style=flat&logo=git)
 
 ### ⏱️ Atividade
