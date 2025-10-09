@@ -59,25 +59,6 @@
 
 ---
 
-## 📌 Projetos em destaque (públicos)
-- **observability-stack-k8s** — Manifests/Helm para OTEL Collector → Prometheus, Loki, Tempo, Grafana (**exemplars + RED/USE + alertas**).
-- **devops-templates** — Padrões de deploy (K8s/Kustomize, Docker Swarm), healthchecks, rollbacks, versionamento de APIs.
-- **iac-os-config** — **Configuração de ambiente** Linux/Windows via **Ansible/Terraform** (scripts PowerShell inclusos de forma discreta).
-- **otel-node-template** — API Node.js/TS com **Zod**, **tests (Jest/Vitest + Supertest)**, **OpenAPI**, **pino + OTEL**, **/metrics**.
-- **n8n-flows** — Fluxos WhatsApp + Redis (JSONs mascarados) e README de arquitetura.
-
-> *Muito do meu trabalho é privado; estes repositórios públicos espelham padrões e práticas do dia a dia.*
-
----
-
-## 🧩 Resultados que costumo entregar
-- **Boas práticas de observabilidade**: logs estruturados, correlação de trace (W3C), exemplars, **SLOs** com alertas úteis.
-- **Custo/retention**: ILM/MinIO, labels de séries e **↓ storage** (ex.: ~5 GB → ~800 MB) mantendo visibilidade.
-- **Plataforma confiável**: healthchecks, readiness/liveness, deploy canário/rollback, versionamento de endpoints.
-- **Infra como código**: ambientes Linux/Windows **como código** (Ansible/Terraform), secrets e auditabilidade.
-
----
-
 ## 📫 Contato
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff)](https://www.linkedin.com/in/darson-jocarbas-08b961123/)
 [![Email](https://img.shields.io/badge/E--mail-D14836?logo=gmail&logoColor=fff)](mailto:dev.jocarbas@gmail.com)
