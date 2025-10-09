@@ -7,6 +7,7 @@
 - **Observabilidade**: OpenTelemetry Collector → **Prometheus, Loki, Tempo, Grafana** (exemplars, RED/USE, correlação).
 - **Orquestração/Deploy**: **Kubernetes**, Helm/Kustomize, **Docker Swarm/Compose**, healthchecks, rollbacks.
 - **Infra como Código (IaC)**: **OpenTofu/Terraform**, **Ansible** (Linux/Windows), secrets e configuração de SO **via código**.
+- **Automação & ChatOps**: **n8n** para chat de suporte (abertura de chamados), **notificações de release no Discord**, auditoria/monitoramento e integrações via webhooks/REST (uso de **Redis** para estado/cache).
 - **Identidade**: Keycloak (OAuth2/OIDC, RBAC), gateways/ingress.
 - **Dados & Cache**: PostgreSQL, **Redis**.
 
@@ -20,13 +21,24 @@
 ![Kustomize](https://img.shields.io/badge/Kustomize-1E90FF?logo=kubernetes&logoColor=fff)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
 ![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-2496ED?logo=docker&logoColor=fff)
+![Portainer](https://img.shields.io/badge/Portainer-13BEF9?logo=portainer&logoColor=fff)
+![Harbor](https://img.shields.io/badge/Harbor-60B932?logo=harbor&logoColor=fff)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=fff)
+![Semaphore](https://img.shields.io/badge/Semaphore-19A974?logo=semaphoreci&logoColor=fff)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?logo=sonarqube&logoColor=fff)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000?logo=opentelemetry)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=fff)
+![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?logo=prometheus&logoColor=fff)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=fff)
 ![Loki](https://img.shields.io/badge/Loki-000?logo=grafana)
 ![Tempo](https://img.shields.io/badge/Tempo-000?logo=grafana)
-![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?logo=prometheus&logoColor=fff)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=fff)
+
+### Automação & ChatOps
+![n8n](https://img.shields.io/badge/n8n-F37C20?logo=n8n&logoColor=fff)
+![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff)
+![Webhooks](https://img.shields.io/badge/Webhooks-000000)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff)
 
 ### IaC & Configuração de SO (Linux/Windows)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=000)
