@@ -6,13 +6,13 @@
 
 - **Observabilidade**: OpenTelemetry Collector → **Prometheus, Loki, Tempo, Grafana** (exemplars, RED/USE, correlação).
 - **Orquestração/Deploy**: **Kubernetes**, Helm/Kustomize, **Docker Swarm/Compose**, healthchecks, rollbacks.
-- **Infra como Código (IaC)**: **OpenTofu/Terraform**, **Ansible** (Linux/Windows), secrets, políticas e configuração de SO **via código**.
+- **Infra como Código (IaC)**: **OpenTofu/Terraform**, **Ansible** (Linux/Windows), secrets e configuração de SO **via código**.
 - **Identidade**: Keycloak (OAuth2/OIDC, RBAC), gateways/ingress.
 - **Dados & Cache**: PostgreSQL, **Redis**.
 
 ---
 
-## 🔧 Tecnologias (organizado por uso)
+## 🔧 Tecnologias (por uso)
 
 ### DevOps, Plataforma & Observabilidade
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=fff)
@@ -51,7 +51,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff)
 
-> *Mensageria/filas (processamento assíncrono): Redis/BullMQ (ou Kafka/RabbitMQ quando aplicável).*
+> *Filas/Eventos quando necessário: BullMQ/Redis, Kafka ou RabbitMQ.*
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000)
@@ -60,36 +60,21 @@
 ---
 
 ## 📌 Projetos em destaque (públicos)
-- **observability-stack-k8s** — Manifests/Helm para OTEL Collector → Prometheus, Loki, Tempo, Grafana (**exemplars + RED/USE + regras de alerta**).
+- **observability-stack-k8s** — Manifests/Helm para OTEL Collector → Prometheus, Loki, Tempo, Grafana (**exemplars + RED/USE + alertas**).
 - **devops-templates** — Padrões de deploy (K8s/Kustomize, Docker Swarm), healthchecks, rollbacks, versionamento de APIs.
 - **iac-os-config** — **Configuração de ambiente** Linux/Windows via **Ansible/Terraform** (scripts PowerShell inclusos de forma discreta).
 - **otel-node-template** — API Node.js/TS com **Zod**, **tests (Jest/Vitest + Supertest)**, **OpenAPI**, **pino + OTEL**, **/metrics**.
 - **n8n-flows** — Fluxos WhatsApp + Redis (JSONs mascarados) e README de arquitetura.
 
-> *Grande parte do meu trabalho é privado; estes repositórios públicos espelham padrões e práticas usadas no dia a dia.*
-
----
-
-## 📈 Métricas
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=darsonbjf&theme=radical#gh-dark-mode-only" alt="Resumo do perfil (dark)"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=darsonbjf&theme=github#gh-light-mode-only" alt="Resumo do perfil (light)"/>
-
-<img src="https://streak-stats.demolab.com?user=darsonbjf&mode=weekly&hide_border=true&date_format=j%2Fn%5B%2FY%5D#gh-dark-mode-only" alt="Streak (dark)"/>
-<img src="https://streak-stats.demolab.com?user=darsonbjf&mode=weekly&hide_border=true#gh-light-mode-only" alt="Streak (light)"/>
-
-<img src="https://metrics.lecoq.io/darsonbjf?template=classic&isocalendar=1&habits=1&isocalendar.duration=half-year&habits.from=200&habits.days=14&config.timezone=America%2FFortaleza" alt="Hábitos de commit"/>
-</div>
+> *Muito do meu trabalho é privado; estes repositórios públicos espelham padrões e práticas do dia a dia.*
 
 ---
 
 ## 🧩 Resultados que costumo entregar
-- **Boas práticas de observabilidade**: logs estruturados, **correlação de trace** (W3C), **exemplars** entre traces↔métricas, **SLOs/SLA** com alertas úteis.
-- **Custo/retention**: políticas ILM/MinIO, labels em série temporal, **↓ uso de storage** (ex.: 5 GB → ~800 MB) mantendo visibilidade.
+- **Boas práticas de observabilidade**: logs estruturados, correlação de trace (W3C), exemplars, **SLOs** com alertas úteis.
+- **Custo/retention**: ILM/MinIO, labels de séries e **↓ storage** (ex.: ~5 GB → ~800 MB) mantendo visibilidade.
 - **Plataforma confiável**: healthchecks, readiness/liveness, deploy canário/rollback, versionamento de endpoints.
-- **Infra como código**: ambientes Linux/Windows **como código** (Ansible/Terraform), segurança por padrão, secrets e auditabilidade.
+- **Infra como código**: ambientes Linux/Windows **como código** (Ansible/Terraform), secrets e auditabilidade.
 
 ---
 
