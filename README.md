@@ -34,12 +34,6 @@
 ![Tempo](https://img.shields.io/badge/Tempo-000?logo=grafana)
 ![MinIO](https://img.shields.io/badge/MinIO-C72E49?logo=minio&logoColor=fff)
 
-### Automação & ChatOps
-![n8n](https://img.shields.io/badge/n8n-F37C20?logo=n8n&logoColor=fff)
-![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff)
-![Webhooks](https://img.shields.io/badge/Webhooks-000000)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff)
-
 ### IaC & Configuração de SO (Linux/Windows)
 ![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=000)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=fff)
@@ -61,6 +55,12 @@
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?logo=openapiinitiative&logoColor=fff)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=fff)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff)
+
+### Automação & ChatOps
+![n8n](https://img.shields.io/badge/n8n-F37C20?logo=n8n&logoColor=fff)
+![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff)
+![Webhooks](https://img.shields.io/badge/Webhooks-000000)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=fff)
 
 > *Filas/Eventos quando necessário: BullMQ/Redis, Kafka ou RabbitMQ.*
