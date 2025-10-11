@@ -4,9 +4,9 @@
 
 > Eu projeto e opero plataformas com **boas práticas de observabilidade** (logs, métricas, traces), **deploys reproduzíveis** e **padrões de segurança**, do Linux ao Windows — tudo como código.
 
-- **Observabilidade**: OpenTelemetry Collector → **Prometheus, Loki, Tempo, Grafana** (exemplars, RED/USE, correlação).
 - **Orquestração/Deploy**: **Kubernetes**, Helm/Kustomize, **Docker Swarm/Compose**, healthchecks, rollbacks.
 - **Infra como Código (IaC)**: **OpenTofu/Terraform**, **Ansible** (Linux/Windows), secrets e configuração de SO **via código**.
+- **Observabilidade**: OpenTelemetry Collector → **Prometheus, Loki, Tempo, Grafana** (exemplars, RED/USE, correlação).
 - **Automação & ChatOps**: **n8n** para chat de suporte (abertura de chamados), **notificações de release no Discord**, auditoria/monitoramento e integrações via webhooks/REST (uso de **Redis** para estado/cache).
 - **Identidade**: Keycloak (OAuth2/OIDC, RBAC), gateways/ingress.
 - **Dados & Cache**: PostgreSQL, **Redis**.
