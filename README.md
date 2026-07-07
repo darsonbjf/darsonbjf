@@ -29,6 +29,19 @@ Tenho experiência com provisionamento e configuração como código, pipelines 
 
 ---
 
+## Projetos em destaque
+
+| Projeto | O que demonstra |
+| --- | --- |
+| [kubernetes-devops-template](https://github.com/darsonbjf/kubernetes-devops-template) | Template Kubernetes com Helm, Kustomize, Argo CD, HPA, PDB, NetworkPolicy, Conftest, kubeconform, CI e evidência de smoke test local. |
+| [opentofu-vsphere-template](https://github.com/darsonbjf/opentofu-vsphere-template) | Infraestrutura como código para VMware vSphere com OpenTofu, backend remoto S3-compatible, guardrails para produção e automações operacionais. |
+| [ansible-vsphere-template](https://github.com/darsonbjf/ansible-vsphere-template) | Estrutura pública para automação Ansible em vSphere com inventário multiambiente, execução via Makefile/deploy script, Vault opcional e TechDocs. |
+| [request-forms-platform](https://github.com/darsonbjf/request-forms-platform) | Aplicação full-stack containerizada com React, Express, Prisma, PostgreSQL e documentação de publicação segura. |
+
+Esses repositórios formam uma trilha de portfólio: provisionamento de infraestrutura, configuração como código, empacotamento/deploy em Kubernetes, validação automatizada e operação de aplicações.
+
+---
+
 ## Stack principal
 
 ### DevOps, Cloud e Containers
@@ -75,6 +88,14 @@ Tenho experiência com provisionamento e configuração como código, pipelines 
 - Infraestrutura como Código
 - Kubernetes, containers e ambientes Linux
 - Automação de processos com Python, n8n e integrações via API
+
+---
+
+## Próximos focos públicos
+
+- Pipeline CI/CD end-to-end com build de imagem, scan de segurança, push para registry e deploy GitOps.
+- Projeto de observabilidade público com Prometheus, Grafana, Loki, Tempo/OpenTelemetry e dashboards versionados.
+- Hardening contínuo dos templates públicos com releases, badges, validação local reproduzível e documentação de evidências.
 
 ---
 
