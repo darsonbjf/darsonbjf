@@ -5,7 +5,7 @@
 </p>
 
 <p align="left">
-  Automação, infraestrutura como código, observabilidade e segurança aplicada ao ciclo de vida de software.
+  Automação, infraestrutura como código, Kubernetes, observabilidade e segurança aplicada ao ciclo de vida de software.
 </p>
 
 ---
@@ -15,6 +15,8 @@
 Atuo com engenharia DevOps, AppSec/DevSecOps e automação de infraestrutura, criando ambientes mais previsíveis, monitoráveis e seguros.
 
 Tenho experiência com provisionamento e configuração como código, pipelines CI/CD, containers, observabilidade, automação de processos e integrações entre sistemas. Meu foco é reduzir trabalho manual, aumentar rastreabilidade e melhorar a confiabilidade de ambientes e aplicações.
+
+Meu GitHub está organizado como um portfólio técnico público: templates reutilizáveis, documentação operacional, validações automatizadas, evidências de execução e práticas de segurança para evitar exposição de dados sensíveis.
 
 ---
 
@@ -33,13 +35,24 @@ Tenho experiência com provisionamento e configuração como código, pipelines 
 
 | Projeto | O que demonstra |
 | --- | --- |
-| [kubernetes-devops-template](https://github.com/darsonbjf/kubernetes-devops-template) | Template Kubernetes com Helm, Kustomize, Argo CD, HPA, PDB, NetworkPolicy, Conftest, kubeconform, CI e evidência de smoke test local. |
-| [ansible-observability-stack-template](https://github.com/darsonbjf/ansible-observability-stack-template) | Template Ansible para stack de observabilidade com Prometheus, Grafana, Loki, Promtail, Tempo, OpenTelemetry Collector, Alertmanager e Blackbox Exporter. |
-| [opentofu-vsphere-template](https://github.com/darsonbjf/opentofu-vsphere-template) | Infraestrutura como código para VMware vSphere com OpenTofu, backend remoto S3-compatible, guardrails para produção e automações operacionais. |
-| [ansible-vsphere-template](https://github.com/darsonbjf/ansible-vsphere-template) | Estrutura pública para automação Ansible em vSphere com inventário multiambiente, execução via Makefile/deploy script, Vault opcional e TechDocs. |
+| [kubernetes-devops-template](https://github.com/darsonbjf/kubernetes-devops-template) | Template Kubernetes com Helm, Kustomize, Argo CD, HPA, PDB, NetworkPolicy, policy-as-code, validação CI e evidência de smoke test local. |
+| [opentofu-vsphere-template](https://github.com/darsonbjf/opentofu-vsphere-template) | IaC para VMware vSphere com OpenTofu, backend remoto S3-compatible, TechDocs, release versionada, validação CI e guardrails de produção. |
+| [ansible-vsphere-template](https://github.com/darsonbjf/ansible-vsphere-template) | Template Ansible para vSphere com inventário multiambiente, Vault opcional, lint, Trivy, TechDocs, runbooks e checks contra exposição de segredos. |
+| [ansible-observability-stack-template](https://github.com/darsonbjf/ansible-observability-stack-template) | Template Ansible para stack de observabilidade com Prometheus, Grafana, Loki, Tempo, OpenTelemetry Collector, Alertmanager e validação CI. |
 | [request-forms-platform](https://github.com/darsonbjf/request-forms-platform) | Aplicação full-stack containerizada com React, Express, Prisma, PostgreSQL e documentação de publicação segura. |
 
-Esses repositórios formam uma trilha de portfólio: provisionamento de infraestrutura, configuração como código, empacotamento/deploy em Kubernetes, validação automatizada e operação de aplicações.
+Esses repositórios formam uma trilha de portfólio: provisionamento de infraestrutura, configuração como código, observabilidade, empacotamento/deploy em Kubernetes, validação automatizada e operação de aplicações.
+
+---
+
+## Sinais de maturidade dos templates
+
+- Repositórios públicos marcados como template e com releases versionadas.
+- CI com validações de sintaxe, lint, policy-as-code, Trivy, TechDocs e checks customizados.
+- Documentação operacional com runbooks, evidências e instruções reproduzíveis.
+- Exemplos sanitizados com IPs reservados para documentação pública.
+- Proteções contra segredos, states, planos, chaves SSH e dados internos.
+- Metadados de Backstage/TechDocs e topics alinhados com DevOps, SRE e Platform Engineering.
 
 ---
 
@@ -92,11 +105,12 @@ Esses repositórios formam uma trilha de portfólio: provisionamento de infraest
 
 ---
 
-## Próximos focos públicos
+## Roadmap público
 
-- Pipeline CI/CD end-to-end com build de imagem, scan de segurança, push para registry e deploy GitOps.
-- Evolução do projeto de observabilidade com dashboards versionados, evidências de runtime e cenários de alerta.
-- Hardening contínuo dos templates públicos com releases, badges, validação local reproduzível e documentação de evidências.
+- Evoluir o `request-forms-platform` como aplicação de referência: testes, build de imagem, scan, push para registry e deploy GitOps.
+- Criar uma demonstração end-to-end: aplicação -> CI/CD -> imagem Docker -> scan -> Kubernetes -> Argo CD -> observabilidade.
+- Adicionar dashboards versionados e cenários de alerta no template de observabilidade.
+- Publicar evidências visuais e logs sanitizados dos fluxos completos em execução.
 
 ---
 
