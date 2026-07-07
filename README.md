@@ -34,6 +34,7 @@ Tenho experiência com provisionamento e configuração como código, pipelines 
 | Projeto | O que demonstra |
 | --- | --- |
 | [kubernetes-devops-template](https://github.com/darsonbjf/kubernetes-devops-template) | Template Kubernetes com Helm, Kustomize, Argo CD, HPA, PDB, NetworkPolicy, Conftest, kubeconform, CI e evidência de smoke test local. |
+| [ansible-observability-stack-template](https://github.com/darsonbjf/ansible-observability-stack-template) | Template Ansible para stack de observabilidade com Prometheus, Grafana, Loki, Promtail, Tempo, OpenTelemetry Collector, Alertmanager e Blackbox Exporter. |
 | [opentofu-vsphere-template](https://github.com/darsonbjf/opentofu-vsphere-template) | Infraestrutura como código para VMware vSphere com OpenTofu, backend remoto S3-compatible, guardrails para produção e automações operacionais. |
 | [ansible-vsphere-template](https://github.com/darsonbjf/ansible-vsphere-template) | Estrutura pública para automação Ansible em vSphere com inventário multiambiente, execução via Makefile/deploy script, Vault opcional e TechDocs. |
 | [request-forms-platform](https://github.com/darsonbjf/request-forms-platform) | Aplicação full-stack containerizada com React, Express, Prisma, PostgreSQL e documentação de publicação segura. |
@@ -94,7 +95,7 @@ Esses repositórios formam uma trilha de portfólio: provisionamento de infraest
 ## Próximos focos públicos
 
 - Pipeline CI/CD end-to-end com build de imagem, scan de segurança, push para registry e deploy GitOps.
-- Projeto de observabilidade público com Prometheus, Grafana, Loki, Tempo/OpenTelemetry e dashboards versionados.
+- Evolução do projeto de observabilidade com dashboards versionados, evidências de runtime e cenários de alerta.
 - Hardening contínuo dos templates públicos com releases, badges, validação local reproduzível e documentação de evidências.
 
 ---
